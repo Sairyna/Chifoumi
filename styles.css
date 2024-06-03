@@ -1,5 +1,9 @@
 body {
     background: radial-gradient(hsl(214, 47%, 23%),hsl(237, 49%, 15%));
+    height: 100vh;
+}
+.jeu {
+    height: 200px;
 }
 .option {
     border: solid 4px;
@@ -118,3 +122,24 @@ body {
     padding-top: 27%;
 }
 
+.rules {
+    position: relative;
+   bottom: 2400px; left: 39.7%;
+   background-color: white;
+   padding:5%;
+   padding-left: 1.5%;
+   padding-right: 1.5%;
+   border-radius: 10px;
+   padding-bottom: 3%;
+}
+
+.modback {
+    background-color: rgba(0, 0, 0, 0.254);
+    position: relative;
+    bottom: 1400px; 
+    height: 1200px;
+    margin: 0;
+}
+.modal {
+    display: none;
+}
